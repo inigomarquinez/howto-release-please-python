@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "howto-release-please-python"
-version = "0.0.0"
+version = "0.1.0"
 description = "POC to use Google's release-please GitHub Action to create releases in a Python service."
 readme = "README.md"
 license = "MIT"
