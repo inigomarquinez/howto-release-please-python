@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "python",
+  "pull-request-title-pattern": "[skip-ci] chore${scope}: release${component} ${version}",
+  "pull-request-footer": "This PR was generated with [Release Please](https://github.com/googleapis/release-please).",
+  "draft-pull-request": true,
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": "🆕 Features",
+      "hidden": false
+    },
+    {
+      "type": "fix",
+      "section": "🐛 Bug Fixes",
+      "hidden": false
+    },
+    {
+      "type": "chore",
+      "section": "🔧 Others",
+      "hidden": false
+    },
+    {
+      "type": "docs",
+      "section": "📝 Docs",
+      "hidden": false
+    },
+    {
+      "type": "style",
+      "section": "🎨 Styling",
+      "hidden": false
+    },
+    {
+      "type": "refactor",
+      "section": "🔄 Code Refactoring",
+      "hidden": false
+    },
+    {
+      "type": "perf",
+      "section": "📈 Performance Improvements",
+      "hidden": false
+    },
+    {
+      "type": "test",
+      "section": "🔬 Tests",
+      "hidden": false
+    },
+    {
+      "type": "ci",
+      "section": "☁️ CI",
+      "hidden": false
+    }
+  ],
+  "packages": {
+    ".": {}
+  }
+}
